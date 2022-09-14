@@ -2,12 +2,13 @@ import random
 
 def jeu():
 
+    #print("Choissisez la borne minimale et la borne maximale pour le jeu.")
     nombre = random.randint(1,1000)
     nb_essais = 0
     essai = -1
 
     print("J’ai choisi un nombre au hasard entre borne_minimale et borne_maximale. À vous de le deviner...")
-    print(nombre)
+    #print(nombre)
     while essai != nombre:
         essai = int(input("Entrer votre essai: "))
         nb_essais = nb_essais + 1
